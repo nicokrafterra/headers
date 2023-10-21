@@ -15,24 +15,39 @@ header{
 
 .left{
     list-style: none;
-    margin: 0px;
+    margin: 10px;
     padding: 5px 5px;
-    display: flex;
+    display: inline;
     color: #ffffff;
 }
 
-.rigth{
+.left a{
     list-style: none;
-    margin: 0px;
+    margin: 10px;
     padding: 5px 5px;
-    display: flex;
+    display: inline;
+    color: #ffffff;
+}
+
+.rigth {
+    list-style: none;
+    margin: 10px;
+    padding: 5px 5px;
+    display: inline;
     float: right;
+    color: #ffffff;
+} 
+.rigth a{
+    list-style: none;
+    margin: 10px;
+    padding: 5px 5px;
+    display: inline;
+    float: right;
+    color: #ffffff;
 }
 
 a{
     text-decoration: none;
-    color: #ffffff;
-    padding: 5px 5px;
 }
 
 div{
@@ -45,5 +60,24 @@ img{
     width: 250px;
 }
 
+#flecha{
+    height: 20px;
+    width: 20px;
+    float: right;
+}
 
+.links1 a{
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+    display: inline;
+    float: right;
+}
 
+.links2 a{
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+    display: inline;
+    float: left;
+}
