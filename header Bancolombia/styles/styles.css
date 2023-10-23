@@ -1,63 +1,28 @@
 body{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 header{
     background-color: #000000;
     color: #ffffff;
-    padding: 10px 20px;
-    display: flex;
+    padding: 20px 20px; 
     justify-content: space-between;
-    align-items: center;
-}
-
-.left{
-    list-style: none;
-    margin: 10px;
-    padding: 5px 5px;
-    display: inline;
-    color: #ffffff;
 }
 
 .left a{
-    list-style: none;
-    margin: 10px;
-    padding: 5px 5px;
-    display: inline;
+    text-decoration: none;
     color: #ffffff;
+    float: left;
+    padding-right: 20px;
 }
 
-.rigth {
-    list-style: none;
-    margin: 10px;
-    padding: 5px 5px;
-    display: inline;
-    float: right;
-    color: #ffffff;
-} 
 .rigth a{
-    list-style: none;
-    margin: 10px;
-    padding: 5px 5px;
-    display: inline;
-    float: right;
-    color: #ffffff;
-}
-
-a{
-    text-decoration: none;
-}
-
-div{
     text-decoration: none;
     color: #ffffff;
-}
-
-img{
-    height: 100px;
-    width: 250px;
+    float:left;
+    padding-right: 20px;
 }
 
 #flecha{
@@ -69,15 +34,71 @@ img{
 .links1 a{
     text-decoration: none;
     color: #000000;
-    align-items: center;
-    display: inline;
-    float: right;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px 10px;
 }
 
 .links2 a{
     text-decoration: none;
     color: #000000;
     align-items: center;
-    display: inline;
     float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 10px 10px;
+}
+
+#logo{
+    float: left;
+    height: 100px;
+    width: 250px;
+    margin-right: 100px;
+    
+}
+
+nav a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.links1 a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+
+.links2 a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+
+#lupa{
+    height: 15px;
+    width: 20px;
+}
+
+#B{
+    margin-left: 400px;
+}
+
+#Entrar{
+    background-color: yellow;
+    background-size: 30px;
+    border-radius: 30%;
+    padding: 10px 10px;
+}
+
+#Entrar a:hover{
+    color: #000000;
+}
+
+#SP{
+    border: 1px;
+    border-color: #000000;
+    border-radius: 30px;
+    border-style: solid;
+    margin-left: 150px;
 }

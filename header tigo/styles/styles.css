@@ -1,0 +1,67 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.varsup{
+    background-color: #001940;
+    height: 40px;
+}
+
+.barinf{
+    background-color: #00377b;
+    height: 100px;
+}
+
+a,li{
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+} 
+
+#logo{
+    float: left;
+    height: 70px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.cajas{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#flecha{
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+#Empresas{
+    margin-right: 30px;
+}
+
+.cajas a{
+    padding: 20px 20px;
+}
+
+.cajas a:hover{
+    background-color: #00377b;
+}
+
+.abajo {
+    padding: 20px 20px;
+}
+
+.abajo a{
+    margin-left: 30px;
+}
+
+
+#lupa{
+    background-image: url(../imgs/images-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 10px;
+}
